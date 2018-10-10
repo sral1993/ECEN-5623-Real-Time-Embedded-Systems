@@ -1,5 +1,6 @@
 # Real-time wireless video streaming and object-detection
 <b>Abstract</b>: The authors have built a real-time object detection system with wireless video streaming capabilities for remote monitoring purposes. The primary component of this system is a video camera equipped NVIDIA JETSON TK1 platform, that executes concurrent tasks for image acquisition, wireless video streaming and object detection. For viewing the live video stream and the object-detection results, a remote terminal in the form of a laptop computer is used. Transmission of video frames was accomplished by using UDP packets sent over a WiFi channel, and the object-detection was implemented with the help of Amazon Rekognition -- a deep learning platform for image detection and recognition. The primary goal of this project was to implement an efficient software architecture that is able to accomplish the above time-critical tasks in a soft real-time fashion.
+<br>
 <img src="https://github.com/sral1993/ECEN-5623-Real-Time-Embedded-Systems/blob/master/Client/Block_diagram.png" alt="Block Diagram">
 
  <p> <b> Capabilities Requirements: </b> </p>
